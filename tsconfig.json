@@ -1,0 +1,12 @@
+// "target" is the flavour of JS that my code will now be compiled with
+// "watch" this function recompiles the code everytime a save it, so that I don't have to manualy compile it in the terminal each time a change it
+// "lib" alowes me to automatically include typings for certain enviroments such as "dom"
+
+{
+    "compilerOptions": {
+        "target": "esnext",
+        "watch": true,
+        "lib": ["DOM", "ES2017"]
+
+    }
+}
